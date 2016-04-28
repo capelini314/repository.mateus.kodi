@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.discoveryhd" name="Teste Discovery" version="0.3.1" provider-name="capelini314">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+	<import addon="script.module.requests" version="2.4.3"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Fun Videos</summary>
+    <description lang="en">Discovery HD
+	http://tv-msn.com/discohd.html
+	</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.videosinfantis" name="Videos Infantis" version="0.4.4" provider-name="Mafarricos">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -19,25 +38,6 @@
 	- http://www.canalpanda.pt (crÃ©ditos para enen92)
 	- Kids Youtube (Canais do Youtube)
 	Todo o conteÃºdo Ã© da autoria dos site, qualquer problema com direitos de autor deve ser dirigido aos mesmos.
-	</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.weebly" name="Teste Videos" version="0.3.1" provider-name="capelini314">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-	<import addon="script.module.requests" version="2.4.3"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <platform>all</platform>
-    <summary lang="en">Fun Videos</summary>
-    <description lang="en">Teste de tv ao vivo
-	http://vtotv.weebly.com/
 	</description>
     <platform>all</platform>
   </extension>
