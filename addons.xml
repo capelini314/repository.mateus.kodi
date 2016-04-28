@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.discoveryhd" name="Teste Discovery" version="0.2.1" provider-name="capelini314">
+<addon id="plugin.video.discoveryhd" name="Discovery HD" version="0.2.1" provider-name="capelini314">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
 	<import addon="script.module.requests" version="2.4.3"/>
@@ -13,7 +13,7 @@
     <platform>all</platform>
     <summary lang="en">Discovery</summary>
     <description lang="en">Discovery HD
-	http://tv-msn.com/discohd.html
+	rtmp://31.204.151.253/live?wmsAuthSign=c2VydmVyX3RpbWU9NC8yOC8yMDE2IDExOjQzOjM0IFBNJmhhc2hfdmFsdWU9S3RJWHRzOStMMmdhOWxGQ054UUw5UT09JnZhbGlkbWludXRlcz0yMA== playpath=master04  swfUrl=http://www.tv-msn.com/player/player.swf  pageUrl=http://tv-msn.com/Discovery%20Channel.php
 	</description>
     <platform>all</platform>
   </extension>

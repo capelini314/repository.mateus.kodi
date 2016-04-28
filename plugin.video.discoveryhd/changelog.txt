@@ -36,6 +36,6 @@ Version 0.0.3
 	Android XBMC Fix
 Version 0.0.2
 Sites added:
-	http://tv-msn.com/discohd.html
+	rtmp://31.204.151.253/live?wmsAuthSign=c2VydmVyX3RpbWU9NC8yOC8yMDE2IDExOjQzOjM0IFBNJmhhc2hfdmFsdWU9S3RJWHRzOStMMmdhOWxGQ054UUw5UT09JnZhbGlkbWludXRlcz0yMA== playpath=master04  swfUrl=http://www.tv-msn.com/player/player.swf  pageUrl=http://tv-msn.com/Discovery%20Channel.php
 Version 0.0.1
 * First addon release
